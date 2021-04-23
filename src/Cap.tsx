@@ -60,10 +60,11 @@ function Cap() {
        
      return()=>clearInterval(interval)
 },[])
+let cap = data['mimir//MAXIMUMLIQUIDITYRUNE']/ (10 ** 8);
   return (
     <div className="App">
      
-       <h1>Max Rune: {data['mimir//MAXIMUMLIQUIDITYRUNE']/ (10 ** 8) }</h1>
+       {cap  > 500000? <h1> Caps may have been raised! Check here <a href='https://twitter.com/THORChain'>THORChain Twitter</a></h1> : <h1>Max Rune: {cap} </h1>}
       <LastUpdate update={date}></LastUpdate>
 
     </div>
