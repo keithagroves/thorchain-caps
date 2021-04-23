@@ -63,8 +63,9 @@ function Cap() {
   return (
     <div className="App">
      
-       <h1>{data['mimir//MAXIMUMLIQUIDITYRUNE']/ (10 ** 8) }</h1>
+       <h1>Max Rune: {data['mimir//MAXIMUMLIQUIDITYRUNE']/ (10 ** 8) }</h1>
       <LastUpdate update={date}></LastUpdate>
+
     </div>
   );
 }
