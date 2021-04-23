@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReactGA from 'react-ga';
+//import ReactGA from 'react-ga';
 
-const trackingId = "G-3B5HLMLB3T"; // Replace with your Google Analytics tracking ID
-ReactGA.initialize(trackingId);
+//const trackingId = "G-LR9FBJY3R0"; // Replace with your Google Analytics tracking ID
+//ReactGA.initialize(trackingId);
 
-ReactGA.pageview("/");
+//ReactGA.pageview("/thorchain-caps/");
 
 ReactDOM.render(
   <React.StrictMode>
