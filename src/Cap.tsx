@@ -64,7 +64,7 @@ let cap = data['mimir//MAXIMUMLIQUIDITYRUNE']/ (10 ** 8);
   return (
     <div className="App">
      
-       {cap  > 500000? <h1> Caps may have been raised! Check here <a href='https://twitter.com/THORChain'>THORChain Twitter</a></h1> : <h1>Max Rune: {cap} </h1>}
+       {cap  > 500000? <h1> Caps may have been raised! Check here <a href='https://twitter.com/THORChain'>THORChain Twitter</a></h1> : <div><h1>Max Rune: {cap}</h1> <p>Do not attempt to add liquidity.</p></div>}
       <LastUpdate update={date}></LastUpdate>
 
     </div>
