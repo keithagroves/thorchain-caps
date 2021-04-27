@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/thorchain-caps/static/css/main.ee957951.chunk.css",
-    "main.js": "/thorchain-caps/static/js/main.1de3fe09.chunk.js",
-    "main.js.map": "/thorchain-caps/static/js/main.1de3fe09.chunk.js.map",
+    "main.js": "/thorchain-caps/static/js/main.e83b12c4.chunk.js",
+    "main.js.map": "/thorchain-caps/static/js/main.e83b12c4.chunk.js.map",
     "runtime-main.js": "/thorchain-caps/static/js/runtime-main.d5f64f04.js",
     "runtime-main.js.map": "/thorchain-caps/static/js/runtime-main.d5f64f04.js.map",
     "static/js/2.7e4295c1.chunk.js": "/thorchain-caps/static/js/2.7e4295c1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d5f64f04.js",
     "static/js/2.7e4295c1.chunk.js",
     "static/css/main.ee957951.chunk.css",
-    "static/js/main.1de3fe09.chunk.js"
+    "static/js/main.e83b12c4.chunk.js"
   ]
 }
